@@ -1,0 +1,93 @@
+html {
+  margin:0;
+}
+body {
+  margin: 0;
+  padding:0;
+}
+.menu_lateral, a {
+  text-decoration:none;
+  color:black;
+}
+a:focus, a:hover {
+  color:blanchedalmond;
+  text-decoration:none;
+}
+.encabezado {
+  background-color:black;
+  margin: 0;
+  padding:0;
+}
+.menu_lateral {
+  background-color:#ccc;
+  height: 100%;
+}
+.yellow {
+  height: 100%;
+  text-align: center;
+
+}
+.footer{
+  background-color:black;
+  text-align: center;
+  height: 60px;
+  margin: 0;
+  padding:10px;
+  color:white;
+  object-position: 0 0;
+
+}
+.mapa {
+  width:100%;
+  height:100%;
+  margin: 30px;
+  border:5px;
+  object-position: center;
+}
+.mapa2 {
+  width:100%;
+  height:100%;
+  margin: 10px;
+  border:5px;
+  object-position: center;
+}
+.navbar {
+  margin-bottom: 0px;
+}
+.navbar-toggle {
+  float: left;
+  padding-left: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+.menu_lateral {
+  display:none;
+  }
+.mapa {
+  display:none;
+}
+}
+@media only screen and (min-width: 768px) {
+.nav {
+  display:none;
+}
+.mapa2 {
+  display:none;
+}
+}
+@media only screen and (min-width: 970px) {
+.nav {
+  display:none;
+}
+.mapa2 {
+  display:none;
+}
+}
+@media only screen and (min-width: 1170px) {
+.nav {
+  display:none;
+}
+.mapa2 {
+  display:none;
+}
+}
