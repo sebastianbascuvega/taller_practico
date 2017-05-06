@@ -1,0 +1,21 @@
+h1  {
+ font-size: 30px;
+ text-align: left;
+ color: gray;
+}
+
+.título {
+ font-size: 12px;
+ text-align: left;
+ color: lightcoral;
+ padding-top: 20px;
+ padding-bottom: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  img {
+    height: 60px;
+    margin-right: 5px;
+    background: transparent;
+  }
+}
